@@ -1,0 +1,19 @@
+{
+  "name": "impervsfunc",
+  "version": "1.0.0",
+  "description": "Comparison between imperative and functional style of programming",
+  "main": "first.js",
+  "dependencies": {
+    "mojiscript": "^0.13.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvgenyChepurnykh/impervsfunc.git"
+  },
+  "author": "Eugene Chepurnykh",
+  "license": "ISC"
+}
