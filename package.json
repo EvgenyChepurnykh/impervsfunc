@@ -2,7 +2,7 @@
   "name": "impervsfunc",
   "version": "1.0.0",
   "description": "Comparison between imperative and functional style of programming",
-  "main": "first.js",
+  "main": "main.js",
   "dependencies": {
     "mojiscript": "^0.13.9"
   },
