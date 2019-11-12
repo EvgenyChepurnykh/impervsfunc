@@ -8,7 +8,7 @@ const reducerFunctional = function(){
     return sum (values)
 }
 
-const reducerImperative = function(){
+const reducerImperative = function() {
     let sum = 0
     for (const x of values) {
         sum = sum + x
@@ -20,5 +20,5 @@ const reducerImperative = function(){
 module.exports = {
     ReducerFunctional : reducerFunctional,
     ReducerImperative : reducerImperative
-};
+}
 

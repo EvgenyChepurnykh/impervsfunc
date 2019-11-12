@@ -4,18 +4,21 @@ const pipeFunctional = function(){
 	const pipe = require('mojiscript/core/pipe')
 	const run = require('mojiscript/core/run')
 	const log = require('mojiscript/console/log')
+	const logF = require('mojiscript/console/logF')
 	const map = require('mojiscript/list/map')
 	const dependencies = {
-		log
+		log,
+		logF
 	}
 	const state= {
 		data : values
 	}
 	
 	
-	const main = ({log}) => pipe([
-			data => map(x => x * 2)(data),
-			data => map(x => x + 100)(data), 
+	const main = ({log, logF}) => pipe ([
+			logF (x => x.data),
+			({data}) => map (x => x * 2) (data),
+			data => map (x => x + 100) (data), 
 			log
 	])
 	
