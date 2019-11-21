@@ -4,7 +4,8 @@
   "description": "Comparison between imperative and functional style of programming",
   "main": "main.js",
   "dependencies": {
-    "mojiscript": "^0.13.9"
+    "mojiscript": "^0.13.9",
+    "ramda": "^0.26.1"
   },
   "devDependencies": {},
   "scripts": {
